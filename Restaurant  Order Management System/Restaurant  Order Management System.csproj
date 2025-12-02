@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFAE6127-BFBD-496F-93CE-3E20D724B948}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Restaurant__Order_Management_System</RootNamespace>
+    <AssemblyName>Restaurant  Order Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow, Version=1.1.38.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tulpep.NotificationWindow.1.1.38\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsLogin.cs" />
+    <Compile Include="clsMeal.cs" />
+    <Compile Include="clsMeal_Management.cs" />
+    <Compile Include="clsResturant_Managementcs.cs" />
+    <Compile Include="DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="First_Screen_Open.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="First_Screen_Open.Designer.cs">
+      <DependentUpon>First_Screen_Open.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pay_Screencs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pay_Screencs.Designer.cs">
+      <DependentUpon>Pay_Screencs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="First_Screen_Open.resx">
+      <DependentUpon>First_Screen_Open.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.ar-DZ.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pay_Screencs.resx">
+      <DependentUpon>Pay_Screencs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-12 035211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beer-1786.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-5188.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-51881.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger-14791.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel-tea-hot-drink-service-and-yellow-mug-15781.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sushi-9037.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beer-1858.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-02 013423.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngaaa.com-3591594.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a6d8ced0cb850ac2e8d3da44d7bc0f07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-15 170209.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-15 170718.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white question marks with a turquoise background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teal color gradient from dark to ligh_t %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطcة شاشة 2025-01-17 012226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-17 012226z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simple realistic lock in teal color with a keys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simple realistic lock with teal color and a keyss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-19 223829.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-19 223719.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-19 225707.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-20 233648.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-21 005949.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة -شاشة 2025-01-21 005949.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teal color gradient from dark to light %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة- شاشة 2025-01-22 053831.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-22 053831m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2394-dark-mode_48x48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-25 184905.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-25 1849051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تركواز متدرج من الاسود %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة شاشة 2025-01-15 050712.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لقطة _شاشة 2025-01-29 064637.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main_Folder\Accounts\Admain_Account.txt" />
+    <Content Include="Main_Folder\Accounts\Client_Account.txt" />
+    <Content Include="Main_Folder\List_Meals_type\ALL_List_OF_Meals_Path.txt" />
+    <Content Include="Main_Folder\List_Meals_type\AsianCuisine_Meals.txt" />
+    <Content Include="Main_Folder\List_Meals_type\ColdDrink_Meals.txt" />
+    <Content Include="Main_Folder\List_Meals_type\FastFood_Meals.txt" />
+    <Content Include="Main_Folder\List_Meals_type\HotDrink_Meals.txt" />
+    <Content Include="Main_Folder\List_Meals_type\MiddleEasternCuisine_Meals.txt" />
+    <Content Include="Main_Folder\List_Meals_type\MyOrder_List.txt" />
+    <Content Include="Main_Folder\List_Meals_type\Payment History.txt" />
+    <Content Include="Main_Folder\Meals_Photo\Arab Dolma meal.png" />
+    <Content Include="Main_Folder\Meals_Photo\Bibimbap.png" />
+    <Content Include="Main_Folder\Meals_Photo\Burger.png" />
+    <Content Include="Main_Folder\Meals_Photo\Chai Latte.png" />
+    <Content Include="Main_Folder\Meals_Photo\Espresso.png" />
+    <Content Include="Main_Folder\Meals_Photo\Fish grilled.png" />
+    <Content Include="Main_Folder\Meals_Photo\Fried Chicken.png" />
+    <Content Include="Main_Folder\Meals_Photo\Hot Dog.png" />
+    <Content Include="Main_Folder\Meals_Photo\Hummus meal.png" />
+    <Content Include="Main_Folder\Meals_Photo\Hummus.png" />
+    <Content Include="Main_Folder\Meals_Photo\Lemonade.png" />
+    <Content Include="Main_Folder\Meals_Photo\Mandi dish with large grilled beef over yellow and red colored rice.png" />
+    <Content Include="Main_Folder\Meals_Photo\Mojito.png" />
+    <Content Include="Main_Folder\Meals_Photo\Pad Thai.png" />
+    <Content Include="Main_Folder\Meals_Photo\Pasta with Béchamel Sauce Arab meal.png" />
+    <Content Include="Main_Folder\Meals_Photo\Pizza.png" />
+    <Content Include="Main_Folder\Meals_Photo\Smoothie.png" />
+    <Content Include="Main_Folder\Meals_Photo\Sushi.png" />
+    <Content Include="Main_Folder\Meals_Photo\Tom Yum Soup.png" />
+    <Content Include="Main_Folder\Meals_Photo\تبولة.png" />
+    <Content Include="Main_Folder\Meals_Photo\صحن salad.png" />
+    <Content Include="Main_Folder\Meals_Photo\طبق فلافل لذيذ.png" />
+    <Content Include="Main_Folder\Meals_Photo\عصير فريز.png" />
+    <Content Include="Main_Folder\Meals_Photo\فنجان قهوة بجانبه حبات بن.png" />
+    <Content Include="Main_Folder\Meals_Photo\كاسة شاي.png" />
+    <Content Include="Main_Folder\Meals_Photo\كبسة.png" />
+    <Content Include="Main_Folder\Meals_Photo\لقطة شاشة 2025-01-16 020756.png" />
+    <Content Include="Main_Folder\Photo\2394-dark-mode_48x48.ico" />
+    <Content Include="Main_Folder\Photo\white question marks with a turquoise background.png" />
+    <Content Include="Main_Folder\Photo\لقطة شاشة 2025-01-02 013423.ico" />
+    <Content Include="Main_Folder\Photo\لقطة شاشة 2025-01-15 050712.png" />
+    <Content Include="Main_Folder\Photo\لقطة شاشة 2025-01-25 184905.png" />
+    <Content Include="Resources\Teal color gradient from dark to light %281%29.png" />
+    <Content Include="Resources\لقطة شاشة 2025-01-02 031141.png" />
+    <Content Include="Resources\لقطة شاشة 2025-01-16 184552.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

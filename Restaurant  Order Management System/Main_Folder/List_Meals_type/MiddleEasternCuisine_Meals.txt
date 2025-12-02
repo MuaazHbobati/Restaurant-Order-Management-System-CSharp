@@ -1,0 +1,12 @@
+Falafel#4.99 $#C:\Users\mstfy\Desktop\Account\Meals Photo\طبق فلافل لذيذ.png#Chickpeas or fava beans, onion, garlic, parsley, cilantro, cumin, salt, baking soda, oil for frying.#0#MiddleEasternCuisine
+Hummus#3.99 $#C:\Users\mstfy\Desktop\Account\Meals Photo\Hummus.png#Boiled chickpeas, tahini, olive oil, lemon juice, garlic, salt.
+#0#MiddleEasternCuisine
+Kabsa#9.99 $#C:\Users\mstfy\Desktop\Account\Meals Photo\كبسة.png#Basmati rice, meat (chicken or lamb), onion, tomato, garlic, kabsa spices (cardamom, cinnamon, cloves, black pepper, turmeric), cooking oil.#0#MiddleEasternCuisine
+Mandi#8.99 $#C:\Users\mstfy\Desktop\Account\Meals Photo\Mandi dish with large grilled beef over yellow and red colored rice.png#Basmati rice, meat (chicken or lamb), onion, tomato, garlic, mandi spices (cumin, turmeric, cinnamon, cardamom), saffron, cooking oil.
+#0#MiddleEasternCuisine
+Tabbouleh#6.00 $#C:\Users\mstfy\Desktop\Account\Meals Photo\تبولة.png#Chopped parsley, diced tomatoes, chopped mint, chopped green onion, bulgur, lemon juice, olive oil, salt.
+#0#MiddleEasternCuisine
+Salad#3.49 $#C:\Users\mstfy\Desktop\Account\Meals Photo\صحن salad.png#Lettuce, tomatoes, cucumbers, carrots, onion, olive oil, lemon juice, salt, pepper.#0#MiddleEasternCuisine
+Yabraq#6.99 $#C:\Users\mstfy\Desktop\Account\Meals Photo\Arab Dolma meal.png#Grape leaves, rice, minced meat, onion, parsley, mint, olive oil, lemon juice, salt, pepper.#0#MiddleEasternCuisine
+Pasta#2.59 $#C:\Users\mstfy\Desktop\Account\Meals Photo\Pasta with Béchamel Sauce Arab meal.png#Pasta, minced meat, onion, tomato sauce, olive oil, flour, butter, milk, grated cheese, salt, pepper.#0#MiddleEasternCuisine
+Shawarma#3.39 $#C:\Users\mstfy\Desktop\Account\Meals Photo\لقطة شاشة 2025-01-16 020756.png#Sliced meat (chicken, lamb, or beef), garlic, yogurt, lemon juice, vinegar, shawarma spices (cumin, paprika, turmeric, cinnamon), olive oil, salt, pepper, pita bread, tahini sauce, pickles, tomatoes, onions.#0#MiddleEasternCuisine
