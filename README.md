@@ -1,5 +1,10 @@
 # Restaurant Order Management System (WinForms C#) 🍽️
 
+
+  ![Dashboard English Light](docs/images/dashboard-en-light.png)
+
+
+  
 ## Overview
 A Windows Forms application in C# re-implementing a demanding **Programming 3 (Java)** course project from **Damascus University**, developed during my first year of ITE at SVU.  
 This project demonstrates my ability to apply **OOP concepts**, build **GUIs**, and handle **Files I/O**.
