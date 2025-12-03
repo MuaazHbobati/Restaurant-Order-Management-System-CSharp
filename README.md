@@ -4,23 +4,23 @@
   ![Dashboard English Light](docs/images/dashboard-en-light.png)
 
 
-  
-## Overview
+  ## Overview  
 A Windows Forms application in C# re-implementing a demanding **Programming 3 (Java)** course project from **Damascus University**, developed during my first year of ITE at SVU.  
-This project demonstrates my ability to apply **OOP concepts**, build **GUIs**, and handle **Files I/O**.
+This project demonstrates my ability to apply **OOP concepts**, build **GUIs**, and handle **Files I/O**.  
 
-## Features
-- Manage restaurant menu items (add, edit, delete).
-- Place and track customer orders.
-- Monitor order status (pending, preparing, completed).
-- Generate simple daily reports.
-- User-friendly Windows Forms interface.
+## Features  
+- Manage restaurant menu items (add, edit, delete).  
+- Place and track customer orders.  
+- Monitor order status (pending, preparing, completed).  
+- Generate simple daily reports.  
+- User-friendly Windows Forms interface.  
+- **Supports both Arabic and English languages** for a wider usability experience.  
 
 ## Requirements
 - **IDE:** Visual Studio 2019 or newer.
 - **Framework:** .NET Framework 4.7.2 or newer.
 - **Language:** C# on Windows.
-- **Database:** SQL Server / LocalDB (if applicable).
+- **Database:** Non-relational (plain text files).
 
 ## Installation & Running
 1. Clone the repository:
@@ -94,7 +94,7 @@ This project demonstrates my ability to apply **OOP concepts**, build **GUIs**, 
 ## Project Structure
 - **Solution:** `Restaurant Order Management System.sln`
 - **Source:** Forms, logic, and resources
-- **Database:** SQL scripts or connection setup files
+- **Database:** Non-relational (plain text files).
 - **Docs:** Place screenshots under `docs/images/`
 
 ---
